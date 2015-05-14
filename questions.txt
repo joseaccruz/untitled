@@ -1,0 +1,192 @@
+S:HTML
+Q:What does HTML stand for?
+- Hyperlinks and Text Markup Language
+- Home Tool Markup Language
++ Hyper Text Markup Language
+- Hyper Terminal Markup Language
+Q: Who is making the Web standards?
+- Mozilla
+- Google
+- Microsoft
++ The World Wide Web Consortium
+Q: Choose the correct HTML tag for the largest heading
+- <h6>
+- <head>
+- <heading>
++ <h1>
+Q: What is the correct HTML tag for inserting a line break?
++ <br>
+- <lb>
+- <break>
+- <p>
+Q: What is the preferred way for adding a background color in HTML?
++ <body style="background-color:yellow;">
+- <body background="yellow">
+- <background>yellow</background>
+- <body bg-color="#FF0000">
+Q: Choose the correct HTML tag to make a text bold
+- <bold>
++ <b>
+- <strong>
+- <bld>
+Q: Choose the correct HTML tag to make a text italic
+- <italic>
++ <i>
+- <light>
+- <itl>
+Q: What is the correct HTML for creating a hyperlink?
+- <a name="http://www.w3schools.com">W3Schools.com</a>
+- <a url="http://www.w3schools.com">W3Schools.com</a>
+- <a>http://www.w3schools.com</a>
++ <a href="http://www.w3schools.com">W3Schools</a>
+Q:How can you create an e-mail link?
+- <a href="xxx@yyy">
+- <mail href="xxx@yyy">
++ <a href="mailto:xxx@yyy">
+- <mail>xxx@yyy</mail>
+Q:How can you open a link in a new tab/browser window?
+- <a href="url" target="new">
++ <a href="url" target="_blank">
+- <a href="url" new>
+- <a href="url" _blank>
+Q:Which of these tags are all <table> tags?
+- <table><tr><tt>
++ <table><tr><td>
+- <thead><body><tr>
+- <table><head><tfoot>
+Q:In HTML, inline elements are normally displayed without starting a new line.
++ True
+- False
+Q:How can you make a numbered list?
+- <dl>
+- <list>
+- <ul>
++ <ol>
+Q:How can you make a bulleted list?
+- <list>
++ <ul>
+- <dl>
+- <ol>
+Q:What is the correct HTML for making a checkbox?
+- <checkbox>
++ <input type="checkbox">
+- <input type="check">
+- <check>
+Q:What is the correct HTML for making a text input field?
+- <textinput type="text">
+- <input type="textfield">
++ <input type="text">
+- <textfield>
+Q:What is the correct HTML for making a drop-down list?
+- <input type="dropdown">
+- <list>
++ <select>
+- <input type="list">
+Q:What is the correct HTML for making a text area?
+- <input type="textbox">
+- <input type="textarea">
++ <textarea>
+- <text>
+Q:What is the correct HTML for inserting an image?
++ <img src="image.gif" alt="MyImage">
+- <img alt="MyImage">image.gif</img>
+- <image src="image.gif" alt="MyImage">
+- <img href="image.gif" alt="MyImage">
+Q:What is the correct HTML for inserting a background image?
++ <body style="background-image:url(background.gif)">
+- <background img="background.gif">
+- <body background="background.gif">
+- <background>background.giF</background>
+S:CSS
+Q:What does CSS stand for?
+- Creative Style Sheets
+- Colorful Style Sheets
+- Computer Style Sheets
++ Cascading Style Sheets
+Q:What is the correct HTML for referring to an external style sheet?
++ <link rel="stylesheet" type="text/css" href="mystyle.css" />
+- <style src="mystyle.css" />
+- <stylesheet>mystyle.css</stylesheet>
+Q:Where in an HTML document is the correct place to refer to an external style sheet?
+- In the <body> section
+- At the top of the document
+- At the end of the document
++ In the <head> section
+Q:Which HTML tag is used to define an internal style sheet?
+- <css>
+- <script>
++ <style>
+Q:Which HTML attribute is used to define inline styles?
+- class
+- font
+- styles
++ style
+Q:Which is the correct CSS syntax?
+- {body;color:black;}
++ body {color: black;}
+- body:color=black;
+- {body:color=black;}
+Q:How do you insert a comment in a CSS file?
++ /* this is a comment */
+- // this is a comment
+- // this is a comment //
+- -- this is a comment
+Q:Which property is used to change the background color?
+- color
++ background-color
+- bgcolor
+Q:How do you add a background color for all <h1> elements?
++ h1 {background-color:#FFFFFF;}
+- h1.all {background-color:#FFFFFF;}
+- all.h1 {background-color:#FFFFFF;}
+Q:Which CSS property is used to change the text color of an element?
++ color
+- fgcolor
+- text-color
+Q:Which CSS property controls the text size?
++ font-style
+- font-size
+- text-size
+- text-style
+Q:What is the correct CSS syntax for making all the <p> elements bold?
++ p {font-weight:bold;}
+- <p style="font-size:bold;">
+- p {text-size:bold;}
+- <p style="text-size:bold;">
+Q:How do you display hyperlinks without an underline?
+- a {decoration:no-underline;}
+- a {underline:none;}
++ a {text-decoration:none;}
+- a {text-decoration:no-underline;}
+Q:Which property is used to change the font of an element?
+- font
++ Both font-family and font can be used
+- font-family
+Q:How do you make each word in a text start with a capital letter?
+- text-transform:uppercase
++ text-transform:capitalize
+- You can not do that with CSS
+Q:How do you make the text bold?
++ font-weight:bold;
+- style:bold;
+- font:bold;
+Q:How do you display a border like this:
+    The top border = 10 pixels
+    The bottom border = 5 pixels
+    The left border = 20 pixels
+    The right border = 1pixel?
+- border-width:10px 20px 5px 1px;
+- border-width:10px 5px 20px 1px;
++ border-width:10px 1px 5px 20px;
+- border-width:5px 20px 10px 1px;
+Q:Which property is used to change the left margin of an element?
+- indent
+- padding-left
++ margin-left
+Q:When using the padding property; are you allowed to use negative values?
+- Yes
++ No
+Q:How do you make a list that lists its items with squares?
+- list-type: square;
+- list: square;
++ list-style-type: square;

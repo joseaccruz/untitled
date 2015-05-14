@@ -1,0 +1,26 @@
+{% extends "main.html" %}
+{% block body %}
+    <div>
+    {% for section in test %}
+        <h1>{{ section.text }}</h1>
+        {% for question in section.questions %}
+            <h2>{{ loop.index }} - {{ question.text }}</h2>
+            <table border="1" cellpadding="10" cellspacing="0">
+            {% for option in question.options %}
+                <tr>
+                    <td>{{ "ABCD"[loop.index-1] }}</td>
+                    <td>
+                        {% if solutions is sameas true %}
+                            {% if option.correct is sameas true %}
+                                <b>X</b>
+                            {% endif %}
+                        {% endif %}
+                    </td>
+                    <td>{{ option.text }}</td>
+                </tr>
+            {% endfor %}
+            </table>
+        {% endfor %}
+    {% endfor %}
+    </div>
+{% endblock %}

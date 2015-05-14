@@ -1,0 +1,27 @@
+<html>
+    <body>
+        <h1>IT Capabilities Assessment Test{% if solutions is sameas true %} (!! WITH SOLUTIONS !!) {% endif %}</h1>
+        <p>Before starting the test, please, fill up the table bellow with your self assessed level of expertise in each one of the technologies:</p>
+        <ol>
+            <li>Never heard about.</li>
+            <li>I heard about it.</li>
+            <li>I'm familiar with the technology.</li>
+            <li>I'm proficient.</li>
+        </ol>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <tr><td>&nbsp;</td><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+            <tr><td>HTML</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+            <tr><td>CSS</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+            <tr><td>Javascript</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+            <tr><td>Python</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+            <tr><td>SQL</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+            <tr><td>Linux</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+        </table>
+
+        <p>If you choose level 3 or 4 in any of the technologies above please complete the corresponding quiz in the following pages.</p>
+        <p>For each question choose only one option.</p>
+
+        {% block body %}
+        {% endblock %}
+    </body>
+</html>
