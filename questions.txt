@@ -1,4 +1,13 @@
 S:HTML
+Q:What is the w3schools?
++ A website.
+- A World Wide Web Consortium
+- A book.
+- A JavaScript library.
+Q:What jQuery is?
+- A CSS Library.
++ JavaScript library.
+- A website. 
 Q:What does HTML stand for?
 - Hyperlinks and Text Markup Language
 - Home Tool Markup Language
