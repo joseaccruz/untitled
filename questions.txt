@@ -240,3 +240,27 @@ Q: With SQL, how do you select all the records from a table named "Persons" wher
 + SELECT * FROM Persons WHERE FirstName='Peter' AND LastName='Jackson'
 - SELECT FirstName='Peter', LastName='Jackson' FROM Persons
 - SELECT * FROM Persons WHERE FirstName<>'Peter' AND LastName<>'Jackson'
+S:Python
+Q: what does the following code do? "def a(b, c, d): pass"
+- defines a list and initializes it
++ defines a function, which does nothing
+- defines a function, which passes its parameters through
+- defines an empty class
+Q: What gets printed, assuming python version 2.x? "print type(1/2)"
++ <type 'int'>
+- <type 'number'>
+- <type 'float'>
+- <type 'double'>
+- <type 'tuple'>
+Q: What is the output of the following code? "print type([1,2])"
+- <type 'tuple'>
+- <type 'int'>
+- <type 'set'>
+- <type 'complex'>
++ <type 'list'>
+Q: what gets printed? "def f(): pass" "print type(f())"
+- <type 'function'>
+- <type 'tuple'>
++ <type 'NoneType'>
+- <type 'str'>
+- <type 'type'>
