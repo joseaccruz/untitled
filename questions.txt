@@ -1,266 +1,597 @@
 S:HTML
 Q:What does HTML stand for?
-- Hyperlinks and Text Markup Language
-- Home Tool Markup Language
-+ Hyper Text Markup Language
-- Hyper Terminal Markup Language
-Q: Who is making the Web standards?
-- Mozilla
-- Google
-- Microsoft
-+ The World Wide Web Consortium
-Q: Choose the correct HTML tag for the largest heading
-- <h6>
-- <head>
-- <heading>
-+ <h1>
-Q: What is the correct HTML tag for inserting a line break?
-+ <br>
-- <lb>
-- <break>
-- <p>
-Q: What is the preferred way for adding a background color in HTML?
-+ <body style="background-color:yellow;">
-- <body background="yellow">
-- <background>yellow</background>
-- <body bg-color="#FF0000">
-Q: Choose the correct HTML tag to make a text bold
-- <bold>
-+ <b>
-- <strong>
-- <bld>
-Q: Choose the correct HTML tag to make a text italic
-- <italic>
-+ <i>
-- <light>
-- <itl>
-Q: What is the correct HTML for creating a hyperlink?
-- <a name="http://www.w3schools.com">W3Schools.com</a>
-- <a url="http://www.w3schools.com">W3Schools.com</a>
-- <a>http://www.w3schools.com</a>
-+ <a href="http://www.w3schools.com">W3Schools</a>
+-Hyperlinks and Text Markup Language
+-Home Tool Markup Language
++Hyper Text Markup Language
+-Hyper Terminal Markup Language
+Q:Who is making the Web standards?
+-Mozilla
+-Google
+-Microsoft
++The World Wide Web Consortium
+Q:Choose the correct HTML tag for the largest heading
+-<h6>
+-<head>
+-<heading>
++<h1>
+Q:What is the correct HTML tag for inserting a line break?
++<br>
+-<lb>
+-<break>
+-<p>
+Q:What is the preferred way for adding a background color in HTML?
++<body style="background-color:yellow;">
+-<body background="yellow">
+-<background>yellow</background>
+-<body bg-color="#FF0000">
+Q:Choose the correct HTML tag to make a text bold
+-<bold>
++<b>
+-<strong>
+-<bld>
+Q:Choose the correct HTML tag to make a text italic
+-<italic>
++<i>
+-<light>
+-<itl>
+Q:What is the correct HTML for creating a hyperlink?
+-<a name="http://www.w3schools.com">W3Schools.com</a>
+-<a url="http://www.w3schools.com">W3Schools.com</a>
+-<a>http://www.w3schools.com</a>
++<a href="http://www.w3schools.com">W3Schools</a>
 Q:How can you create an e-mail link?
-- <a href="xxx@yyy">
-- <mail href="xxx@yyy">
-+ <a href="mailto:xxx@yyy">
-- <mail>xxx@yyy</mail>
+-<a href="xxx@yyy">
+-<mail href="xxx@yyy">
++<a href="mailto:xxx@yyy">
+-<mail>xxx@yyy</mail>
 Q:How can you open a link in a new tab/browser window?
-- <a href="url" target="new">
-+ <a href="url" target="_blank">
-- <a href="url" new>
-- <a href="url" _blank>
+-<a href="url" target="new">
++<a href="url" target="_blank">
+-<a href="url" new>
+-<a href="url" _blank>
 Q:Which of these tags are all <table> tags?
-- <table><tr><tt>
-+ <table><tr><td>
-- <thead><body><tr>
-- <table><head><tfoot>
+-<table><tr><tt>
++<table><tr><td>
+-<thead><body><tr>
+-<table><head><tfoot>
 Q:In HTML, inline elements are normally displayed without starting a new line.
-+ True
-- False
++True
+-False
 Q:How can you make a numbered list?
-- <dl>
-- <list>
-- <ul>
-+ <ol>
+-<dl>
+-<list>
+-<ul>
++<ol>
 Q:How can you make a bulleted list?
-- <list>
-+ <ul>
-- <dl>
-- <ol>
+-<list>
++<ul>
+-<dl>
+-<ol>
 Q:What is the correct HTML for making a checkbox?
-- <checkbox>
-+ <input type="checkbox">
-- <input type="check">
-- <check>
+-<checkbox>
++<input type="checkbox">
+-<input type="check">
+-<check>
 Q:What is the correct HTML for making a text input field?
-- <textinput type="text">
-- <input type="textfield">
-+ <input type="text">
-- <textfield>
+-<textinput type="text">
+-<input type="textfield">
++<input type="text">
+-<textfield>
 Q:What is the correct HTML for making a drop-down list?
-- <input type="dropdown">
-- <list>
-+ <select>
-- <input type="list">
+-<input type="dropdown">
+-<list>
++<select>
+-<input type="list">
 Q:What is the correct HTML for making a text area?
-- <input type="textbox">
-- <input type="textarea">
-+ <textarea>
-- <text>
+-<input type="textbox">
+-<input type="textarea">
++<textarea>
+-<text>
 Q:What is the correct HTML for inserting an image?
-+ <img src="image.gif" alt="MyImage">
-- <img alt="MyImage">image.gif</img>
-- <image src="image.gif" alt="MyImage">
-- <img href="image.gif" alt="MyImage">
++<img src="image.gif" alt="MyImage">
+-<img alt="MyImage">image.gif</img>
+-<image src="image.gif" alt="MyImage">
+-<img href="image.gif" alt="MyImage">
 Q:What is the correct HTML for inserting a background image?
-+ <body style="background-image:url(background.gif)">
-- <background img="background.gif">
-- <body background="background.gif">
-- <background>background.giF</background>
++<body style="background-image:url(background.gif)">
+-<background img="background.gif">
+-<body background="background.gif">
+-<background>background.giF</background>
 S:CSS
 Q:What does CSS stand for?
-- Creative Style Sheets
-- Colorful Style Sheets
-- Computer Style Sheets
-+ Cascading Style Sheets
+-Creative Style Sheets
+-Colorful Style Sheets
+-Computer Style Sheets
++Cascading Style Sheets
 Q:What is the correct HTML for referring to an external style sheet?
-+ <link rel="stylesheet" type="text/css" href="mystyle.css" />
-- <style src="mystyle.css" />
-- <stylesheet>mystyle.css</stylesheet>
++<link rel="stylesheet" type="text/css" href="mystyle.css" />
+-<style src="mystyle.css" />
+-<stylesheet>mystyle.css</stylesheet>
 Q:Where in an HTML document is the correct place to refer to an external style sheet?
-- In the <body> section
-- At the top of the document
-- At the end of the document
-+ In the <head> section
+-In the <body> section
+-At the top of the document
+-At the end of the document
++In the <head> section
 Q:Which HTML tag is used to define an internal style sheet?
-- <css>
-- <script>
-+ <style>
+-<css>
+-<script>
++<style>
 Q:Which HTML attribute is used to define inline styles?
-- class
-- font
-- styles
-+ style
+-class
+-font
+-styles
++style
 Q:Which is the correct CSS syntax?
-- {body;color:black;}
-+ body {color: black;}
-- body:color=black;
-- {body:color=black;}
+-{body;color:black;}
++body {color: black;}
+-body:color=black;
+-{body:color=black;}
 Q:How do you insert a comment in a CSS file?
-+ /* this is a comment */
-- // this is a comment
-- // this is a comment //
-- -- this is a comment
++/* this is a comment */
+-// this is a comment
+-// this is a comment //
+--- this is a comment
 Q:Which property is used to change the background color?
-- color
-+ background-color
-- bgcolor
+-color
++background-color
+-bgcolor
 Q:How do you add a background color for all <h1> elements?
-+ h1 {background-color:#FFFFFF;}
-- h1.all {background-color:#FFFFFF;}
-- all.h1 {background-color:#FFFFFF;}
++h1 {background-color:#FFFFFF;}
+-h1.all {background-color:#FFFFFF;}
+-all.h1 {background-color:#FFFFFF;}
 Q:Which CSS property is used to change the text color of an element?
-+ color
-- fgcolor
-- text-color
++color
+-fgcolor
+-text-color
 Q:Which CSS property controls the text size?
-+ font-style
-- font-size
-- text-size
-- text-style
++font-style
+-font-size
+-text-size
+-text-style
 Q:What is the correct CSS syntax for making all the <p> elements bold?
-+ p {font-weight:bold;}
-- <p style="font-size:bold;">
-- p {text-size:bold;}
-- <p style="text-size:bold;">
++p {font-weight:bold;}
+-<p style="font-size:bold;">
+-p {text-size:bold;}
+-<p style="text-size:bold;">
 Q:How do you display hyperlinks without an underline?
-- a {decoration:no-underline;}
-- a {underline:none;}
-+ a {text-decoration:none;}
-- a {text-decoration:no-underline;}
+-a {decoration:no-underline;}
+-a {underline:none;}
++a {text-decoration:none;}
+-a {text-decoration:no-underline;}
 Q:Which property is used to change the font of an element?
-- font
-+ Both font-family and font can be used
-- font-family
+-font
++Both font-family and font can be used
+-font-family
 Q:How do you make each word in a text start with a capital letter?
-- text-transform:uppercase
-+ text-transform:capitalize
-- You can not do that with CSS
+-text-transform:uppercase
++text-transform:capitalize
+-You can not do that with CSS
 Q:How do you make the text bold?
-+ font-weight:bold;
-- style:bold;
-- font:bold;
++font-weight:bold;
+-style:bold;
+-font:bold;
 Q:How do you display a border like this:
     The top border = 10 pixels
     The bottom border = 5 pixels
     The left border = 20 pixels
     The right border = 1pixel?
-- border-width:10px 20px 5px 1px;
-- border-width:10px 5px 20px 1px;
-+ border-width:10px 1px 5px 20px;
-- border-width:5px 20px 10px 1px;
+-border-width:10px 20px 5px 1px;
+-border-width:10px 5px 20px 1px;
++border-width:10px 1px 5px 20px;
+-border-width:5px 20px 10px 1px;
 Q:Which property is used to change the left margin of an element?
-- indent
-- padding-left
-+ margin-left
+-indent
+-padding-left
++margin-left
 Q:When using the padding property; are you allowed to use negative values?
-- Yes
-+ No
+-Yes
++No
 Q:How do you make a list that lists its items with squares?
-- list-type: square;
-- list: square;
-+ list-style-type: square;
+-list-type: square;
+-list: square;
++list-style-type: square;
 S:SQL
-Q: What does SQL stand for?
-+ Structured Query Language
-- Strong Question Language
-- Structured Question Language
-Q: Which SQL statement is used to extract data from a database?
-- OPEN
-- EXTRACT
-- GET
-+ SELECT
-Q: Which SQL statement is used to update data in a database?
-- MODIFY
-+ UPDATE
-- SAVE AS
-- SAVE
-Q: Which SQL statement is used to delete data from a database?
-- REMOVE
-+ DELETE
-- COLLAPSE
-Q: Which SQL statement is used to insert new data in a database?
-- ADD NEW
-- INSERT NEW
-- ADD RECORD
-+ INSERT INTO
-Q: With SQL, how do you select a column named "FirstName" from a table named "Persons"?
-- EXTRACT FirstName FROM Persons
-- SELECT Persons.FirstName
-+ SELECT FirstName FROM Persons
-Q: With SQL, how do you select all the columns from a table named "Persons"?
-+ SELECT * FROM Persons
-- SELECT Persons
-- SELECT [all] FROM Persons
-- SELECT *.Persons
-Q: With SQL, how do you select all the records from a table named "Persons" where the value of the column "FirstName" is "Peter"?
-- SELECT * FROM Persons WHERE FirstName<>'Peter'
-- SELECT [all] FROM Persons WHERE FirstName LIKE 'Peter'
-- SELECT [all] FROM Persons WHERE FirstName='Peter'
-+ SELECT * FROM Persons WHERE FirstName='Peter'
-Q: With SQL, how do you select all the records from a table named "Persons" where the value of the column "FirstName" starts with an "a"?
-+ SELECT * FROM Persons WHERE FirstName LIKE 'a%'
-- SELECT [all] FROM Persons WHERE FirstName='a'
-- SELECT * FROM Persons WHERE FirstName='%a%'
-- SELECT [all] FROM Persons WHERE FirstName LIKE '%a'
-Q: The OR operator displays a record if ANY conditions listed are true. The AND operator displays a record if ALL of the conditions listed are true
-- False
-+ True
-Q: With SQL, how do you select all the records from a table named "Persons" where the "FirstName" is "Peter" and the "LastName" is "Jackson"?
-+ SELECT * FROM Persons WHERE FirstName='Peter' AND LastName='Jackson'
-- SELECT FirstName='Peter', LastName='Jackson' FROM Persons
-- SELECT * FROM Persons WHERE FirstName<>'Peter' AND LastName<>'Jackson'
+Q:What does SQL stand for?
++Structured Query Language
+-Strong Question Language
+-Structured Question Language
+-Simple Query Language
+Q:Which SQL statement is used to extract data from a database?
+-OPEN
+-EXTRACT
+-GET
++SELECT
+Q:Which SQL statement is used to update data in a database?
+-MODIFY
++UPDATE
+-SAVE AS
+-SAVE
+Q:Which SQL statement is used to delete data from a database?
+-REMOVE
++DELETE
+-COLLAPSE
+Q:Which SQL statement is used to insert new data in a database?
+-ADD NEW
+-INSERT NEW
+-ADD RECORD
++INSERT INTO
+Q:With SQL, how do you select a column named "FirstName" from a table named "Persons"?
+-EXTRACT FirstName FROM Persons
+-SELECT Persons.FirstName
++SELECT FirstName FROM Persons
+Q:With SQL, how do you select all the columns from a table named "Persons"?
++SELECT * FROM Persons
+-SELECT Persons
+-SELECT [all] FROM Persons
+-SELECT *.Persons
+Q:With SQL, how do you select all the records from a table named "Persons" where the value of the column "FirstName" is "Peter"?
+-SELECT * FROM Persons WHERE FirstName<>'Peter'
+-SELECT [all] FROM Persons WHERE FirstName LIKE 'Peter'
+-SELECT [all] FROM Persons WHERE FirstName='Peter'
++SELECT * FROM Persons WHERE FirstName='Peter'
+Q:With SQL, how do you select all the records from a table named "Persons" where the value of the column "FirstName" starts with an "a"?
++SELECT * FROM Persons WHERE FirstName LIKE 'a%'
+-SELECT [all] FROM Persons WHERE FirstName='a'
+-SELECT * FROM Persons WHERE FirstName='%a%'
+-SELECT [all] FROM Persons WHERE FirstName LIKE '%a'
+Q:The OR operator displays a record if ANY conditions listed are true. The AND operator displays a record if ALL of the conditions listed are true
++True
+-False
+Q:With SQL, how do you select all the records from a table named "Persons" where the "FirstName" is "Peter" and the "LastName" is "Jackson"?
++SELECT * FROM Persons WHERE FirstName='Peter' AND LastName='Jackson'
+-SELECT FirstName='Peter', LastName='Jackson' FROM Persons
+-SELECT [all] FROM Persons WHERE FirstName<>'Peter' AND LastName<>'Jackson'
+-SELECT [all] FROM Persons WHERE FirstName='Peter' AND LastName='Jackson'
+-SELECT * FROM Persons WHERE FirstName<>'Peter' AND LastName<>'Jackson'
+Q:With SQL, how do you select all the records from a table named "Persons" where the "LastName" is alphabetically between (and including) "Hansen" and "Pettersen"?
+-SELECT LastName>'Hansen' AND LastName<'Pettersen' FROM Persons
+-SELECT [all] FROM Persons WHERE LastName BETWEEN 'Hansen' AND 'Pettersen'
+-SELECT * FROM Persons WHERE LastName>'Hansen' AND LastName<'Pettersen'
++SELECT * FROM Persons WHERE LastName BETWEEN 'Hansen' AND 'Pettersen'
+-SELECT [all] FROM Persons WHERE LastName>'Hansen' AND LastName<'Pettersen'
+Q:Which SQL statement is used to return only different values?
++SELECT DISTINCT
+-SELECT DIFFERENT
+-SELECT UNIQUE
+-SELECT SINGLE
+Q:Which SQL keyword is used to sort the result-set?
++ORDER BY
+-SORT
+-SORT BY
+-ORDER
+Q:With SQL, how can you return all the records from a table named "Persons" sorted descending by "FirstName"?
+-SELECT * FROM Persons SORT BY 'FirstName' DESC
+-SELECT * FROM Persons SORT 'FirstName' DESC
+-SELECT * FROM Persons ORDER FirstName DESC
++SELECT * FROM Persons ORDER BY FirstName DESC
+-SELECT [all] FROM Persons SORT BY 'FirstName' DESC
+-SELECT [all] FROM Persons SORT 'FirstName' DESC
+-SELECT [all] FROM Persons ORDER FirstName DESC
+-SELECT [all] FROM Persons ORDER BY FirstName DESC
+Q:With SQL, how can you insert a new record into the "Persons" table?
+-INSERT INTO Persons VALUES ('Jimmy', 'Jackson')
+-INSERT VALUES ('Jimmy', 'Jackson') INTO Persons
++INSERT ('Jimmy', 'Jackson') INTO Persons
+-None of the options.
+Q:With SQL, how can you insert "Olsen" as the "LastName" in the "Persons" table?
+-INSERT ('Olsen') INTO Persons (LastName)
+-INSERT INTO Persons ('Olsen') INTO LastName
++INSERT INTO Persons (LastName) VALUES ('Olsen')
+-None of the options.
+Q:How can you change "Hansen" into "Nilsen" in the "LastName" column in the Persons table?
+-MODIFY Persons SET LastName='Hansen' INTO LastName='Nilsen'
+-MODIFY Persons SET LastName='Nilsen' WHERE LastName='Hansen'
++UPDATE Persons SET LastName='Nilsen' WHERE LastName='Hansen'
+-UPDATE Persons SET LastName='Hansen' INTO LastName='Nilsen'
+-SAVE Persons SET LastName='Nilsen' WHERE LastName='Hansen'
+Q:With SQL, how can you delete the records where the "FirstName" is "Peter" in the Persons Table?
++DELETE FROM Persons WHERE FirstName = 'Peter'
+-DELETE ROW FirstName='Peter' FROM Persons
+-REMOVE FirstName='Peter' FROM Persons
+-COLLAPSE ROW FirstName='Peter' FROM Persons
+Q:With SQL, how can you return the number of records in the "Persons" table?
+-SELECT COLUMNS(*) FROM Persons
++SELECT COUNT(*) FROM Persons
+-SELECT COUNT() FROM Persons
+-SELECT COLUMNS() FROM Persons
 S:Python
-Q: what does the following code do? "def a(b, c, d): pass"
-- defines a list and initializes it
-+ defines a function, which does nothing
-- defines a function, which passes its parameters through
-- defines an empty class
-Q: What gets printed, assuming python version 2.x? "print type(1/2)"
-+ <type 'int'>
-- <type 'number'>
-- <type 'float'>
-- <type 'double'>
-- <type 'tuple'>
-Q: What is the output of the following code? "print type([1,2])"
-- <type 'tuple'>
-- <type 'int'>
-- <type 'set'>
-- <type 'complex'>
-+ <type 'list'>
-Q: what gets printed? "def f(): pass" "print type(f())"
-- <type 'function'>
-- <type 'tuple'>
-+ <type 'NoneType'>
-- <type 'str'>
-- <type 'type'>
+Q:what does the following code do?
+    def a(b, c, d):
+        pass
+-defines a list and initializes it
++defines a function, which does nothing
+-defines a function, which passes its parameters through
+-defines an empty class
+Q:What is the output of the following code?
+    print type(1/2)
++<type 'int'>
+-<type 'number'>
+-<type 'float'>
+-<type 'double'>
+-<type 'tuple'>
+Q:What is the output of the following code?
+    print type([1,2])
+-<type 'tuple'>
+-<type 'int'>
+-<type 'set'>
+-<type 'complex'>
++<type 'list'>
+Q:What is the output of the following code?
+    def f():
+        pass
+
+    print type(f())
+-<type 'function'>
+-<type 'tuple'>
++<type 'NoneType'>
+-<type 'str'>
+-<type 'type'>
+Q:What is the output of the following code?
+    kvps  = {"user","bill", "password","hillary"}
+    print kvps['password']
+-user
+-bill
+-password
+-hillary
++Python syntax error
+Q:What is the output of the following code?
+    class Account:
+        def __init__(self, id):
+            self.id = id
+            id = 999
+
+    acc = Account(123)
+    print acc.id
+-None
++123
+-999
+-SyntaxError, this program will not run
+Q:Which of the following data structures can be used with the "in" operator to check if an item is in the data structure?
+-list
+-set
+-dictionary
+-None of the above
++All of the above
+Q:Which of the following print statements will print all the names in the list on a seperate line
+    names = ['Ramesh', 'Rajesh', 'Roger', 'Ivan', 'Nico']
++print "\n".join(names)
+-print names.join("\n")
+-print names.concatenate("\n")
+-print names.append("\n")
+-print names.join("%s\n", names)
+Q:What is the output of the following code?
+    name = "snow storm"
+
+    print "%s" % name[6:8]
+        st
+-sto
++to
+-tor
+-Syntax Error
+Q:What is the output of the following code?
+    name = "snow storm"
+    name[5] = 'X'
+    print name
+-snow storm
+-snowXstorm
+-snow Xtorm
++ERROR, this code will not run
+Q:What is the output of the following code?
+    for i in  range(2):
+        print i
+
+    for i in range(4,6):
+        print i
+-2, 4, 6
+-0, 1, 2, 4, 5, 6
++0, 1, 4, 5
+-0, 1, 4, 5, 6, 7, 8, 9
+-1, 2, 4, 5, 6
+Q:What is the output of the following code?
+    names = ['Amir', 'Barry', 'Chales', 'Dao']
+    print names[-1][-1]
+-A
+-r
+-Amir
+-Dao
++o
+Q:What is the output of the following code?
+    names1 = ['Amir', 'Barry', 'Chales', 'Dao']
+    names2 = names1
+    names3 = names1[:]
+
+    names2[0] = 'Alice'
+    names3[1] = 'Bob'
+
+    sum = 0
+    for ls in (names1, names2, names3):
+        if ls[0] == 'Alice':
+            sum += 1
+        if ls[1] == 'Bob':
+            sum += 10
+
+    print sum
+-11
++12
+-21
+-22
+-33
+Q:What is the output of the following code?
+    names1 = ['Amir', 'Barry', 'Chales', 'Dao']
+
+    loc = names1.index("Edward")
+
+    print loc
+--1
+-0
+-4
+-Edward
++An exception is thrown
+Q:What is the output of the following code?
+    names1 = ['Amir', 'Barry', 'Chales', 'Dao']
+    names2 = [name.lower() for name in names1]
+
+    print names2[2][0]
+-i
+-a
++c
+-C
+-An exception is thrown
+Q:What is the output of the following code?
+    numbers = [1, 2, 3, 4]
+    numbers.append([5,6,7,8])
+    print len(numbers)
+-4
++5
+-8
+-12
+-An exception is thrown
+Q:What is the output of the following code?
+    class Person:
+        def __init__(self, id):
+            self.id = id
+
+    obama = Person(100)
+
+    obama.__dict__['age'] = 49
+
+    print obama.age + len(obama.__dict__)
+-1
+-2
+-49
+-50
++51
+Q:What is the output of the following code?
+    def simpleFunction():
+        "This is a cool simple function that returns 1"
+        return 1
+
+    print simpleFunction.__doc__[10:14]
+-simpleFunction
+-simple
+-func
+-funtion
++cool
+Q:What is the output of the following code?
+    x = 1
+    y = "2"
+    z = 3
+
+    sum = 0
+    for i in (x,y,z):
+        if isinstance(i, int):
+            sum += 1
+    print sum
++2
+-3
+-4
+-6
+-An exception is thrown
+Q:What is the output of the following code?
+    open("trash.tmp", "w").write("|".join(map(str, xrange(10))))
+    print filter(lambda x: int(x) % 2 == 0, open("trash.tmp").read().split("|"))
++['0', '2', '4', '6', '8']
+-['2', '4', '6', '8', '10']
+-['0', '1', 2', '3', 4', '3', '6', '7', 8']
+-0|1|2|3|4|3|6|7|8
+-0|2|4|6|8
+-0|2|4|6|8|10
+S:JavaScript
+Q:Inside which HTML element do we put the JavaScript?
+-<scripting>
+-<js>
++<script>
+-<javascript>
+Q:What is the correct JavaScript syntax to change the content of the HTML element below?
+    <p id="demo">This is a demonstration.</p>
+-#demo.innerHTML = "Hello World!";
++document.getElementById("demo").innerHTML = "Hello World!";
+-document.getElementByName("p").innerHTML = "Hello World!";
+-document.getElement("p").innerHTML = "Hello World!";
+Q:Where is the correct place to insert a JavaScript?
+-The <body> section.
++Both the <head> section and the <body> section are correct.
+-The <head> section.
+-None of them.
+Q:What is the correct syntax for referring to an external script called "xxx.js"?
++<script src="xxx.js">
+-<script href="xxx.js">
+-<script name="xxx.js">
+Q:The external JavaScript file must contain the <script> tag.
+-True
++False
+Q:How do you write "Hello World" in an alert box?
++alert("Hello World");
+-msg("Hello World");
+-alertBox("Hello World");
+-msgBox("Hello World");
+Q:How do you create a function in JavaScript?
++function myFunction()
+-function = myFunction()
+-function:myFunction()
+-def myFunction():
+Q:How do you call a function named "myFunction"?
++myFunction()
+-call function myFunction()
+-call myFunction()
+Q:How to write an IF statement in JavaScript?
+-if i = 5 then
+-if i = 5
++if (i == 5)
+-if i == 5 then
+Q:How to write an IF statement for executing some code if "i" is NOT equal to 5?
++if (i != 5)
+-if i <> 5
+-if i =! 5 then
+-if (i <> 5)
+Q:How does a WHILE loop start?
++while (i <= 10)
+-while (i <= 10):
+-while (i <= 10; i++)
+-while i = 1 to 10
+Q:How does a FOR loop start?
+-for (i = 0; i <= 5)
+-for i = 1 to 5
+-for (i <= 5; i++)
+-for (i = 0; i <= 5; i++)
+Q:How can you add a comment in a JavaScript?
++//This is a comment
+-<!--This is a comment-->
+-#This is a comment
+Q:How to insert a comment that has more than one line?
+-<!--This comment has
+more than one line-->
++/*This comment has
+more than one line*/
+-//This comment has
+more than one line//
+-"""This comment has
+more than one line"""
+Q:What is the correct way to write a JavaScript array?
+-var colors = "red", "green", "blue"
++var colors = ["red", "green", "blue"]
+-var colors = 1 = ("red"), 2 = ("green"), 3 = ("blue")
+-var colors = (1:"red", 2:"green", 3:"blue")
+Q:How do you round the number 7.25, to the nearest integer?
+-round(7.25)
+-Math.rnd(7.25)
++Math.round(7.25)
+-rnd(7.25)
+Q:How do you find the number with the highest value of x and y?
+-ceil(x, y)
+-top(x, y)
++Math.max(x, y)
+-Math.ceil(x, y)
+Q:What is the correct JavaScript syntax for opening a new window called "w2" ?
++w2 = window.open("http://www.w3schools.com");
+-w2 = window.new("http://www.w3schools.com");
+-window.new("w2", "http://www.w3schools.com");
+-window.open("w2", "http://www.w3schools.com");
+Q:JavaScript comes originally from the Java language.
+-True
++False
+Q:How can you detect the client's browser name?
+-client.navName
++browser.name
+-navigator.appName
+-browser.name();

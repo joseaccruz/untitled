@@ -4,11 +4,11 @@
     {% for section in test %}
         <h1>{{ section.text }}</h1>
         {% for question in section.questions %}
-            <h2>{{ loop.index }} - {{ question.text }}</h2>
+            <h2><pre>{{ loop.index }} - {{ question.text }}</pre></h2>
             <table border="1" cellpadding="10" cellspacing="0">
             {% for option in question.options %}
                 <tr>
-                    <td>{{ "ABCD"[loop.index-1] }}</td>
+                    <td>{{ "ABCDEFGHIJKLMNOPQRSTUVWXYZ"[loop.index-1] }}</td>
                     <td>
                         {% if solutions is sameas true %}
                             {% if option.correct is sameas true %}
@@ -16,7 +16,7 @@
                             {% endif %}
                         {% endif %}
                     </td>
-                    <td>{{ option.text }}</td>
+                    <td><pre>{{ option.text }}</pre></td>
                 </tr>
             {% endfor %}
             </table>
